@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+
+import {DashBoardPage, PageNotFound, LoginPage} from './pages'
+import { AllProducts } from 'components/panels';
+import AddProductPanel from 'components/panels/AddProductPanel';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <>
+          <Routes>
+            <Route index element={<LoginPage/>}/>
+            <Route path="dashboard" element={<DashBoardPage/>}>
+              <Route index element={<AllProducts title="All Products"/>}/>
+              <Route path='add' element={<AddProductPanel title="Add new Products"/>}/>  
+            </Route>
+            <Route path="*" element={<PageNotFound/>}/>
+          </Routes>
+        </>
   );
 }
 
