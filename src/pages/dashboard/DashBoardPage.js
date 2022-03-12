@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import { Link, Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from 'libs/firebase'
 import { useNavigate } from 'react-router-dom'
