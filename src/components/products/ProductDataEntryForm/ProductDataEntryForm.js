@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ProductImageDropBox } from '../ProductImageDropBox';
+// import { ProductImageDropBox } from '../ProductImageDropBox';
 
 import {ProductDataEntryFormStyles, ProductDescription,ProductImage,ProductName,ProductPrice} from './styles'
 import {Label, Input, TextArea} from 'ui/forms'
@@ -11,7 +11,7 @@ function ProductDataEntryForm ({children,handleProductName, handleProductPrice, 
         <ProductDataEntryFormStyles  {...props} onSubmit={handleSubmit}>
           <ProductImage>
             <Label>Product Image</Label>
-            <ProductImageDropBox setProductImage={setProductImage}/>
+            {/* <ProductImageDropBox setProductImage={setProductImage}/> */}
           </ProductImage>
           <fieldset>
             <ProductName>
