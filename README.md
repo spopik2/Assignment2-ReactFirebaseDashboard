@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Steve's Sticks
+
+This repository is for Steve's Sticks. Steve's Sticks is a web app used for selling used or new hockey sticks in the Edmonton area. It's the best and quickest way to off load your old hockey sticks or buy hockey sticks.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
