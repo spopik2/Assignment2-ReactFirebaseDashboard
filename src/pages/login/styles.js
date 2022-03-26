@@ -40,8 +40,6 @@ const FormContainerRight = styled.div`
     background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
 `
 
-
-
 const FormInputs = styled.div`
     margin-bottom: 0.5rem;
     width: 80%;

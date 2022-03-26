@@ -36,10 +36,10 @@ function ProductOptions (props){
             <FaHockeyPuck color="#19CBFF" size={25}/><Link to="/dashboard" style={linkStyle}>Veiw all Products</Link>
             </SidebarListItem>
             <SidebarListItem>
-            <RiAddCircleFill color="#19CBFF" size={25}/><Link to="/add" style={linkStyle}>Add a Stick</Link>
+            <RiAddCircleFill color="#19CBFF" size={25}/><Link to="add" style={linkStyle}>Add a Stick</Link>
             </SidebarListItem>
             <SidebarListItem>
-            <RiEdit2Fill color="#19CBFF" size={25}/><Link to="/edit" style={linkStyle}>Edit a Stick</Link>
+            <RiEdit2Fill color="#19CBFF" size={25}/><Link to="edit" style={linkStyle}>Edit a Stick</Link>
             </SidebarListItem>
             <SidebarListItem>
             <GiHockey color="#19CBFF" size={25}/><Link to="/search" style={linkStyle}>Search a Stick</Link>

@@ -1,0 +1,8 @@
+.pageNotFound-img {
+    width: 600px;
+    height: 500px;
+    position:absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
