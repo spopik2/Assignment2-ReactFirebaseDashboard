@@ -1,4 +1,4 @@
-import { ProductCard } from "components/productcaard";
+import { ProductCard } from "components/products/productcaard";
 import React from "react";
 
 import {PanelStlyes, PanelBody, PanelHeader} from './styles'
